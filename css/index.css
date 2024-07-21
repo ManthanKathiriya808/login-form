@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: url("../background/starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+
+  }
+
+.container{
+    color: white;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(50px);
+    width: 420px;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 36px;
+   
+}
+
+.input-box{
+   position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border:2px solid rgba(255, 255, 255, .2);
+    background-color: transparent;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.wrap-check-55{
+    color: black;
+    margin-right: 5px;
+}
+
+.wrap-check-55 .checkbox {
+    
+    --bg: 
+#fff;
+    --brdr: 
+#d1d6ee;
+    --brdr-actv: 
+#1e2235;
+    --brdr-hovr: 
+#bbc1e1;
+    --dur: calc((var(--size, 2)/2) * 0.6s);
+    display: inline-block;
+    width: calc(var(--size, 1) * 22px);
+    position: relative;
+  }
+  .wrap-check-55 .checkbox:after {
+    content: "";
+    width: 100%;
+    padding-top: 100%;
+    display: block;
+  }
+  .wrap-check-55 .checkbox > * {
+    position: absolute;
+  }
+  .wrap-check-55 .checkbox input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-tap-highlight-color: 
+transparent;
+    cursor: pointer;
+    background-color: var(--bg);
+    border-radius: calc(var(--size, 1) * 4px);
+    border: calc(var(--newBrdr, var(--size, 1)) * 1px) solid;
+    color: var(--newBrdrClr, var(--brdr));
+    outline: none;
+    margin: 0;
+    padding: 0;
+    transition: all calc(var(--dur) / 3) linear;
+  }
+  .wrap-check-55 .checkbox input:hover,
+  .wrap-check-55 .checkbox input:checked {
+    --newBrdr: calc(var(--size, 1) * 2);
+  }
+  .wrap-check-55 .checkbox input:hover {
+    --newBrdrClr: var(--brdr-hovr);
+  }
+  .wrap-check-55 .checkbox input:checked {
+    --newBrdrClr: var(--brdr-actv);
+    transition-delay: calc(var(--dur) /1.3);
+  }
+  .wrap-check-55 .checkbox input:checked + svg {
+    --dashArray: 16 93;
+    --dashOffset: 109;
+  }
+  .wrap-check-55 .checkbox svg {
+    fill: none;
+    left: 0;
+    pointer-events: none;
+    stroke: var(--stroke, var(--border-active));
+    stroke-dasharray: var(--dashArray, 93);
+    stroke-dashoffset: var(--dashOffset, 94);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    top: 0;
+    transition: stroke-dasharray var(--dur), stroke-dashoffset var(--dur);
+  }
+  .wrap-check-55 .checkbox svg,
+  .wrap-check-55 .checkbox input {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+.input-box i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 20px;
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin:-15px 0px 15px;
+}
+
+    .remember label{
+        display: flex;
+        justify-content: space-between;
+    
+        
+    }
+
+.remember label input{
+    color: white;
+    margin-right: 3px;
+}
+
+.remember a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+
+.btn-24{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background:linear-gradient(#00d4ff,#020024,#090979,#00d4ff);
+    color: white;
+}
+
+.btn-24,
+.btn-24 *,
+.btn-24 :after,
+.btn-24 :before,
+.btn-24:after,
+.btn-24:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-24 {
+  -webkit-tap-highlight-color: 
+transparent;
+  -webkit-appearance: button;
+  background-color: 
+#000;
+  background-image: none;
+  color: 
+#fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-24:disabled {
+  cursor: default;
+}
+.btn-24:-moz-focusring {
+  outline: auto;
+}
+.btn-24 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-24 [hidden] {
+  display: none;
+}
+.btn-24 {
+  --background: 
+#fff;
+  background: none;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+.btn-24 span {
+  display: block;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+.btn-24:after,
+.btn-24:before {
+  --tilt: 20px;
+  /* background: 
+#fff; */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+  width: 100%;
+  z-index: -1;
+}
+.btn-24:after {
+  --thickness: 5px;
+  background: var(--background);
+  height: calc(100% - var(--thickness) * 2);
+  left: var(--thickness);
+  top: var(--thickness);
+  width: calc(100% - var(--thickness) * 2);
+}
+.btn-24:hover span {
+  transform: translateX(-20px);
+}
+.btn-24:hover:after,
+.btn-24:hover:before {
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+}
+
+
+.btn-24{
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background:linear-gradient(#00d4ff,#020024,#090979,#00d4ff);
+    color: white;
+}
+.register{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+
+.register a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
