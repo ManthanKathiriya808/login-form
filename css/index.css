@@ -326,3 +326,78 @@ transparent;
 .register a:hover{
     text-decoration: underline;
 }
+
+
+nav{
+  border: 5px solid red;
+  z-index: 10;
+  width: 100%;
+  /* padding: 20px 0px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  border: 10px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(100px);
+  align-items: center;
+  
+}
+
+.nav-title{
+  width: 5%;
+  padding: 20px;
+ height: 5%;
+}
+
+.nav-title img{
+  width: 100%;
+  border-radius: 50%;
+  padding: 1px;
+  height: 100%;
+}
+
+/* nav div{
+  border: 1px solid red;
+} */
+
+.nav-bar{
+  font-size: 25px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nav-link a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link a:hover{
+  text-decoration: underline;
+}
+
+.nav-menu{
+  font-size: 20px;
+  text-align: right;
+  display: none;
+  color: white;
+}
+
+@media (max-width:991px){
+  .nav-bar{
+    display: none;
+  }
+
+  .nav-title{
+    display: none;
+  }
+
+  /* .nav-menu{
+    display: flex;
+    justify-content: end;
+    
+  } */
+}
+
