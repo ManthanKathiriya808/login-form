@@ -540,6 +540,6 @@ ul {
     bottom: 10px;
     right: 50%;
     transform: translateX(50%);
-    /* display: none; */
+    display: none;
   }
 }
